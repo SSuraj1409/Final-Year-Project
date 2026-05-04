@@ -41,6 +41,14 @@ All pretrained models are converted into **ONNX format** and deployed on an edge
 
 ---
 
+## 👥 Team Members
+
+- Suraj Srinivasan  
+- Av Madrigalejos  
+- Chris Martin Edappady  
+
+---
+
 ## 🙋‍♂️ My Contribution – Suraj Srinivasan
 
 I was responsible for the **deep learning system development and real-time inference pipeline**, including:
@@ -55,10 +63,16 @@ I was responsible for the **deep learning system development and real-time infer
 
 ---
 
-## 👥 Team Members
+## 🛠️ Technologies Used
 
-- Suraj Srinivasan  
-- Av Madrigalejos  
-- Chris Martin Edappady  
+- Python  
+- PyTorch  
+- OpenCV  
+- Scikit-learn  
+- ONNX / ONNX Runtime  
+- Arduino  
+- Raspberry Pi  
+- Computer Vision  
+- Deep Learning (CNNs)  
 
 ---
