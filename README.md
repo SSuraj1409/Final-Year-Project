@@ -11,6 +11,8 @@ Traditional manual waste segregation methods are inefficient, inconsistent, and 
 
 The system is designed to classify waste in real time using convolutional neural networks (CNNs) and deploy predictions through an embedded hardware setup, enabling automated physical sorting using an Arduino-based mechanism.
 
+In addition to the core classification and sorting functionality, the system also includes a **web-based application for monitoring bin status and waste data insights**. This application stores classified waste information in **MongoDB** and provides visualisation of both real-time and historical bin data. It allows tracking of bin usage levels, waste distribution trends, and system activity, enabling better monitoring and analysis of the overall waste management process.
+
 ---
 
 ## 🤖 System Overview
