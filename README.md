@@ -78,3 +78,66 @@ I was responsible for the **deep learning system development and real-time infer
 - Deep Learning (CNNs)  
 
 ---
+## 🔄 System Workflow Explanation
+
+
+### 1. 🟢 Object Detection (Arduino + Sensors)
+The process begins when an object is placed on the platform.  
+An Arduino microcontroller uses sensors to detect the presence of waste.  
+If an object is detected, a ping signal is triggered and sent through serial communication to the AI system.
+
+---
+
+### 2. 🔁 Serial Communication Bridge (Forward Ping)
+The ping signal is forwarded from the Arduino to the processing unit (Raspberry Pi).  
+This acts as a trigger for the AI pipeline to begin classification.
+
+---
+
+### 3. 🧠 AI-Based Object Classification
+Upon receiving the signal:
+- The AI system activates the webcam  
+- Multiple image frames are captured and preprocessed using OpenCV  
+- Trained deep learning models perform inference  
+- Ensemble model combines predictions for final classification  
+- System outputs an index value corresponding to the predicted class  
+
+---
+
+### 4. 🔁 Serial Communication Bridge (Forward Index)
+The predicted category index is sent back to the Arduino via serial communication.
+
+---
+
+### 5. ⚙️ Mechanical Sorting & Display (Arduino Output System)
+The Arduino receives the classification result and:
+- Rotates or adjusts the platform to the correct bin category  
+- Measures bin fill level using sensors  
+- Displays waste category and bin status on an LCD screen  
+
+The system then resets and prepares for the next input.
+
+---
+
+### 6. 📡 Data Transmission to Backend
+The Arduino forwards updated data (waste category, bin level, etc.) through serial communication to the Raspberry Pi acting as a gateway.
+
+---
+
+### 7. 🗄️ Database Storage & Dashboard Visualization
+The Raspberry Pi:
+- Stores data in MongoDB  
+- Updates a web-based dashboard in real time  
+
+Users can monitor:
+- Bin fill levels  
+- Waste distribution trends  
+- System activity  
+
+---
+
+### 8. 🔚 Process Completion
+If no valid classification is received, the system safely terminates the cycle.  
+Otherwise, the process loops back and waits for the next object.
+
+---
