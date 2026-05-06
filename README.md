@@ -165,8 +165,3 @@ Otherwise, the process loops back and waits for the next object.
 
 ---
 
-### 8. 🔚 Process Completion
-If no valid classification is received, the system safely terminates the cycle.  
-Otherwise, the process loops back and waits for the next object.
-
----
