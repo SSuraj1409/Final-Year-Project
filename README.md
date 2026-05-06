@@ -80,6 +80,29 @@ I was responsible for the **deep learning system development and real-time infer
 ---
 ## 🔄 System Workflow Explanation
 
+The diagram illustrates the end-to-end workflow of the Smart Waste Classification & Sorting System, showing how data flows between hardware components, the AI model, and the web application.
+
+---
+
+### 🔄 Process Flowchart for Waste Classification & Segregation
+
+<div align="center">
+<img src="https://i.imgur.com/J4iduvC.png" width="80%" alt="Waste Classification Flowchart"/>
+</div>
+
+<p align="center"><i>Figure: End-to-End Waste Classification and Sorting Workflow</i></p>
+
+---
+
+### 🎥 OpenCV Pipeline for Real-Time Object Recognition
+
+<div align="center">
+<img src="https://i.imgur.com/q5zMLTh.png" width="80%" alt="OpenCV Pipeline"/>
+</div>
+
+<p align="center"><i>Figure: OpenCV-Based Real-Time Waste Classification Pipeline</i></p>
+
+---
 
 ### 1. 🟢 Object Detection (Arduino + Sensors)
 The process begins when an object is placed on the platform.  
@@ -133,6 +156,12 @@ Users can monitor:
 - Bin fill levels  
 - Waste distribution trends  
 - System activity  
+
+---
+
+### 8. 🔚 Process Completion
+If no valid classification is received, the system safely terminates the cycle.  
+Otherwise, the process loops back and waits for the next object.
 
 ---
 
