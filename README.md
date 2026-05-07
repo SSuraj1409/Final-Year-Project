@@ -324,4 +324,4 @@ The following demo videos showcase the real-time operation of the Smart Waste Cl
 </div>
 
 ---
-## 🔒 Full source code and detailed report available in a private repository. Please contact me for access.
+## 🔒Full source code and detailed report available in a private repository. Please contact me for access.
