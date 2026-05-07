@@ -90,7 +90,7 @@ The diagram illustrates the end-to-end workflow of the Smart Waste Classificatio
 <img src="https://i.imgur.com/J4iduvC.png" width="80%" alt="Waste Classification Flowchart"/>
 </div>
 
-<p align="center"><i>Figure: End-to-End Waste Classification and Sorting Workflow</i></p>
+<p align="center"></p>
 
 ---
 
@@ -100,7 +100,7 @@ The diagram illustrates the end-to-end workflow of the Smart Waste Classificatio
 <img src="https://i.imgur.com/q5zMLTh.png" width="80%" alt="OpenCV Pipeline"/>
 </div>
 
-<p align="center"><i>Figure: OpenCV-Based Real-Time Waste Classification Pipeline</i></p>
+<p align="center"></p>
 
 ---
 
