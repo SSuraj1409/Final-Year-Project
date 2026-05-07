@@ -78,6 +78,107 @@ I was responsible for the **deep learning system development and real-time infer
 - Deep Learning (CNNs)  
 
 ---
+## 📊 Model Performance & Evaluation
+
+The deep learning models were evaluated using validation accuracy, test accuracy, precision, recall, and F1-score across all waste categories. Performance comparisons were conducted between pretrained transfer learning architectures and a custom CNN baseline model.
+
+The pretrained models consistently outperformed the custom CNN in both classification accuracy and prediction stability, demonstrating the effectiveness of transfer learning for real-world waste classification tasks.
+
+---
+
+### 🧠 Training Performance Comparison
+
+The following results summarize the best validation accuracy achieved by each model during training, along with training duration and convergence performance.
+
+<div align="center">
+<img src="https://i.imgur.com/sbrYHE2.png" width="90%" alt="Training Results"/>
+</div>
+
+<p align="center"><i>Figure: Validation Accuracy and Training Performance Comparison</i></p>
+
+---
+
+## 📈 Test Evaluation Metrics
+
+The models were further evaluated on a separate test dataset using:
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+
+The pretrained models achieved consistently strong results across all waste categories, while the Custom CNN showed lower performance due to limited feature extraction capability when trained from scratch.
+
+---
+
+### 📱 MobileNetV3-Large Results
+
+MobileNetV3-Large demonstrated strong and efficient classification performance with high overall accuracy and stable predictions across all waste categories.
+
+<div align="center">
+<img src="https://i.imgur.com/PJgbbCs.png" width="90%" alt="MobileNetV3-Large Results"/>
+</div>
+
+<p align="center"></p>
+
+---
+
+### ⚡ EfficientNet-B0 Results
+
+EfficientNet-B0 achieved the highest overall test accuracy among all evaluated models, showing excellent generalization and balanced classification performance.
+
+<div align="center">
+<img src="https://i.imgur.com/vfGzJ27.png" width="90%" alt="EfficientNet-B0 Results"/>
+</div>
+
+<p align="center"></p>
+
+---
+
+### 🧠 ResNet-50 Results
+
+ResNet-50 demonstrated highly stable and balanced classification performance with strong precision and recall across all waste categories.
+
+<div align="center">
+<img src="https://i.imgur.com/QMofTvY.png" width="90%" alt="ResNet-50 Results"/>
+</div>
+
+<p align="center"></p>
+
+---
+
+### 🛠️ Custom CNN Results
+
+The Custom CNN served as a baseline comparison model. While it successfully learned general waste classification patterns, its performance was significantly lower compared to the pretrained transfer learning architectures.
+
+<div align="center">
+<img src="https://i.imgur.com/m85VimK.png" width="90%" alt="Custom CNN Results"/>
+</div>
+
+<p align="center"></p>
+  
+---
+
+### 🔍 Key Findings
+
+- EfficientNet-B0 achieved the highest overall test accuracy at **96.85%**
+- ResNet-50 and MobileNetV3-Large also demonstrated highly stable performance
+- The ensemble approach improved prediction robustness and reduced individual model errors
+- The Custom CNN achieved significantly lower accuracy, highlighting the benefits of pretrained transfer learning architectures
+- Most classification errors occurred between visually similar materials such as plastic, paper, and certain e-waste items
+
+---
+
+### ⚡ Real-Time Deployment Performance
+
+Only the pretrained models were selected for real-time deployment on the Raspberry Pi due to their:
+- Higher classification accuracy
+- Faster convergence during training
+- Better generalization performance
+- More stable predictions during live webcam inference
+
+The ensemble inference pipeline maintained reliable real-time classification performance under both natural sunlight and artificial lighting conditions.
+
+---
 ## 🔄 System Workflow Explanation
 
 The diagram illustrates the end-to-end workflow of the Smart Waste Classification & Sorting System, showing how data flows between hardware components, the AI model, and the web application.
