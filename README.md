@@ -165,3 +165,56 @@ Otherwise, the process loops back and waits for the next object.
 
 ---
 
+## 📸 Project Demonstration
+
+---
+
+### 🏗️ Structural Design of the Smart Bin
+
+The following images show the structural planning and design phase of the Smart Waste Classification & Sorting System.
+
+<div align="center">
+<img src="https://i.imgur.com/ozZWVPq.png" width="80%" alt="Structural Design 1"/>
+<br/><br/>
+<img src="https://i.imgur.com/Lj7bOw4.png" width="80%" alt="Structural Design 2"/>
+<br/><br/>
+<img src="https://i.imgur.com/gol5gEl.png" width="80%" alt="Structural Design 3"/>
+</div>
+
+---
+
+### ♻️ Final Smart Bin Build
+
+The images below show the completed implementation of the AI-powered smart waste sorting system, including the integrated embedded hardware and automated sorting mechanism.
+
+<div align="center">
+<img src="https://i.imgur.com/1pfZqAI.png" width="80%" alt="Final Smart Bin Build 1"/>
+<br/><br/>
+<img src="https://i.imgur.com/7UyYY03.png" width="80%" alt="Final Smart Bin Build 2"/>
+</div>
+
+---
+
+### 🌐 Web Dashboard & Bin Monitoring System
+
+The web-based dashboard provides real-time monitoring and visualization of waste classification data, bin fill levels, and historical waste information stored in MongoDB.
+
+<div align="center">
+<img src="https://i.imgur.com/sOBaocR.png" width="80%" alt="Web Dashboard 1"/>
+<br/><br/>
+<img src="https://i.imgur.com/cTIRD8U.png" width="80%" alt="Web Dashboard 2"/>
+</div>
+
+---
+
+### 🎥 Smart Bin Demonstration Video
+
+The following demo video showcases the real-time operation of the Smart Waste Classification & Sorting System, including object detection, AI-based classification, automated sorting, and dashboard updates.
+
+<div align="center">
+
+[![Watch the Demo](https://i.imgur.com/WHi7U0s.png)](YOUR_YOUTUBE_VIDEO_LINK)
+
+</div>
+
+---
