@@ -307,14 +307,19 @@ The web-based dashboard provides real-time monitoring and visualization of waste
 </div>
 
 ---
+### 🎥 Smart Bin Demonstration Videos
 
-### 🎥 Smart Bin Demonstration Video
-
-The following demo video showcases the real-time operation of the Smart Waste Classification & Sorting System, including object detection, AI-based classification, automated sorting, and dashboard updates.
+The following demo videos showcase the real-time operation of the Smart Waste Classification & Sorting System, including object detection, AI-based classification, automated sorting, and dashboard updates.
 
 <div align="center">
 
-[![Watch the Demo](https://i.imgur.com/WHi7U0s.png)](YOUR_YOUTUBE_VIDEO_LINK)
+### ▶️ Full System Demonstration
+[![Watch the Demo](https://i.imgur.com/WHi7U0s.png)](https://youtu.be/XEgK_aaXahQ)
+
+<br/><br/>
+
+### ▶️ Additional System Demonstration
+[![Watch the Demo](https://i.imgur.com/WHi7U0s.png)](https://youtu.be/SQUOEykWhbs)
 
 </div>
 
